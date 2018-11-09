@@ -20,7 +20,7 @@ namespace OpcPublisher
 
         public static string IotDeviceCertX509StorePathDefault => "My";
 
-        public static string IotHubOwnerConnectionString { get; set; } = null;
+        public static string IotHubOwnerConnectionString { get; set; } = "HostName=demo-hub-iot.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=u5+BNnCWeKe4ihi0MzDij2/rINiJNvgJCyvsQtIO2+A=";
         public static Microsoft.Azure.Devices.Client.TransportType IotHubProtocol
         {
             get => HubProtocol;
